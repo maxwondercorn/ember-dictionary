@@ -2,9 +2,11 @@
 
 Dictionary loading mocked from [wooorm/dictionaries](https://github.com/wooorm/dictionaries)
 
-This is a custom [hunspell](http://hunspell.github.io) dictionary to use with [retext-spell](https://github.com/retextjs/retext-spell) for spellchecking the Ember guides.  It has the common technical terms used by the Ember community and helps enforce consistency across the guides.
+This is a custom [hunspell](http://hunspell.github.io) dictionary for spellchecking the Ember guides.  It has the common technical terms used by the Ember community and helps enforce consistency across the guides.
 
 For example, `emberobserver` and `EmberObserver` will be flagged as invalid, with a suggestion of `Ember Observer`.
+
+The dictionary will use [retext-spell](https://github.com/retextjs/retext-spell) to spell check the markdown files.
 
 It does not include common addon or package names, for example `ember-cli-addon-docs` because they are not likely to be in every guide.  These should be defined in the local `.ember.dic` file located a the root of the project.
 
@@ -54,4 +56,6 @@ This would include names of addons e.g. `ember-moment` used in guide examples. A
 
 ## Contributing
 
-Fork, add word(s) to the index.dic file and REP if needed to index.aff.  Test
+Fork, add word(s) to the index.dic file and REP if needed to index.aff.  Add words to the `test.md` file and make it works as expected.
+
+Ask if not sure how to do the REP entry
