@@ -1,0 +1,1 @@
+<!-- This file contains the words you want to test the dictionary against.  If a new word is added to the dictionary, it should also be added here for testing. -->

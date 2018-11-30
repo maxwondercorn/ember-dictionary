@@ -1,0 +1,21 @@
+{
+  "name": "ember-dictionary",
+  "version": "0.0.0",
+  "description": "Hunspell dictionary for Ember guides",
+  "license": "MIT",
+  "keywords": [
+    "Ember",
+    "spelling",
+    "hunspell",
+    "dictionary"
+  ],
+  "repository": "https://github.com/maxwondercorn/ember-dictionary",
+  "author": "maxwondercorn aka gmartell",
+  "dependencies": {},
+  "devDependencies": {
+    "remark-cli": "^6.0.1"
+  },
+  "scripts": {
+    "test": "remark ."
+  }
+}
