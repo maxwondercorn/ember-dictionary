@@ -7,10 +7,11 @@ For example, `emberobserver` and `EmberObserver` will be flagged as invalid, wit
 The dictionary will use [retext-spell](https://github.com/retextjs/retext-spell) to spellcheck markdown files. `retext-spell` dictionary loading is demonstrated in [wooorm/dictionaries](https://github.com/wooorm/dictionaries).
 
 
-## Installation`
+## Installation
 
-`yarn add ember-dictionary
-
+```sh
+yarn add ember-dictionary
+```
 ## Table of Dictionaries
 
 To use the dictionary, add it to `.remarkrc.js` file with the appropriate configuration options
@@ -59,7 +60,9 @@ Generally, packages or addon names would not be included in the dictionary.  The
 
 ## What not to add
 
-Items that would be specific to a single guide should be added to the local dictionary - `.ember.dic`, which should be located at the root of the project directory. Non-core packages and addons used in examples such as `ember-moment` should also be in the local dictionary.
+Items that would be specific to a single guide should be added to the project dictionary.  The project dictionary is named `.ember.dic` and should be located in the project root directory. Non-core packages and addons used in examples, such as `ember-moment` would also be in the local dictionary.
+
+The local dictionary can also be used to exclude words.  If a word in the dictionary is prefixed with and `*`, the spellcheck will always flag those as misspelt words.
 
 ## Plurals
 
