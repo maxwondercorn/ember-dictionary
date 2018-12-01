@@ -1,21 +1,25 @@
-let read = require("fs").readFile;
-let path = require("path");
-let util = require("util");
+const read = require('fs').readFile;
+const readFile = util.promisify(read);
+const path = require('path');
+const util = require('util');
 
 module.exports = load;
 
-const readFile = util.promisify(read);
-
 async function load(callback) {
   let result = {};
+  let exception = null;
+
+  // need v8 for async/await
+  if (process.versions.node.split('.')[0] < 8) {
+    throw new Error('Node version not supported. Need v8');
+  }
 
   try {
-    result['aff'] = await readFile(path.join(__dirname, "index.aff"));
-    result['dic'] = await readFile(path.join(__dirname, "index.dic"));
+    result['aff'] = await readFile(path.join(__dirname, 'index.aff'));
+    result['dic'] = await readFile(path.join(__dirname, 'index.dic'));
   } catch (e) {
-    console.error(e.message);
+    exception = exception || e;
   } finally {
-    return result;
+    callback(exception, exception ? null : result);
   }
 }
-

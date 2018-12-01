@@ -2,19 +2,17 @@
 # The settings, PFX and SFX are duplicated from the orginal SCOWL files
 # found at http://wordlist.aspell.net/dicts/
 
-# REP is used to provide alternatives when a mispelt word is found and will be
-# the suggested spelling/format to replace the mispelt word.  This can be used to
-# enforce cosnsitency in the Ember guides.  
-
-# In most cases, these will be the only words offered as replacements. In some cases,
-# like `css`, additional alternatives will be offered besides `CSS`
+# REPlace is used to provide alternatives when a mispelt word is found and
+# the suggested spelling/format to replace the mispelt word. These can be used
+# to enforce case, names and word forms in the Ember guides.  
 
 # DO NOT change anything other than REP values!!
 
 # 1 - Insert replacements in alphabetical order to make it easier to manage
-# 2 - The number at the top of the list is the number of REPs.  This is for buffer sizing and
-#     doesn't need to be 100% accuratue but should be maintained as exact count
-# 3 - if the replacement is to be multiple works put an underscore between them - see EmberObserver
+# 2 - The number at the top of the REP list is the number of REPs.  The count must
+#     match the number of REPS!!!
+# 3 - if the replacement word is to be replaced with multiple words use an 
+#     underscore for spaces - see EmberObserver
 
 SET UTF-8
 TRY esianrtolcdugmphbyfvkwzESIANRTOLCDUGMPHBYFVKWZ'
@@ -130,11 +128,13 @@ SFX B   e     able       [^aeiou]e
 SFX L Y 1
 SFX L   0     ment       .
 
-REP 20
+# REP count must be exact!!!
+REP 19
 REP css CSS
 REP ember Ember
 REP emberjs Ember
 REP ember-cli Ember_CLI
+REP emberobserver Ember_Observer
 REP EmberObserver Ember_Observer
 REP eslint ESLint
 REP indepth in-depth
