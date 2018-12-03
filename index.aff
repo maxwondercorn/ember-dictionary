@@ -129,8 +129,9 @@ SFX L Y 1
 SFX L   0     ment       .
 
 # REP count must be exact!!!
-REP 109
+REP 110
 REP css CSS
+REP configPaths configPath
 REP ember Ember
 REP emberjs Ember
 REP ember-cli Ember_CLI
