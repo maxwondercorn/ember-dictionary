@@ -10,6 +10,7 @@ LTS
 README
 UI
 Async
+Config
 DevTools
 ESLint
 Ember
@@ -21,12 +22,17 @@ Testem
 Vim
 VSCode
 addon/S
+addAddonToProject
+addBowerPackageToProjec
+addPackageToProject
 autoRun
 bugfix/S
 codebase
 codemod
 codemods
+config
 configPath
+dasherized
 deprecation/S
 ember-try
 engineering/A
@@ -34,6 +40,7 @@ http
 in-depth
 in-repo
 lifecycle
+linter
 localhost:4200
 minifyCSS
 minifyJS
@@ -43,8 +50,11 @@ namespace/S
 npm
 outputPaths
 performant
+podModulePrefix
 precompiler/S
+pewprocessed
 preprocessor/S
+pewprocessed
 rootURL
 sourcemap/S
 storeConfigInMeta
@@ -52,5 +62,7 @@ stylesheet/S
 subdirectories
 subdirectory
 symlink/S
+uglify
 uglification
 vendorFile/S
+webpack

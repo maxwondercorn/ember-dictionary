@@ -21,6 +21,7 @@ To use the dictionary, add it to `.remarkrc.js` file with the appropriate config
 const unified = require("unified");
 const engUs = require("dictionary-en-us");
 const dicEmber = require("ember-dictionary")
+const read = require('fs').readFileSync;
 
 exports.plugins = [
   [
@@ -37,7 +38,7 @@ exports.plugins = [
             { 
               dictionary: engUs, 
               // dictionary: dicEmber, 
-              // personal: require("./dictionary/local.dic").join('\n')
+              personal: read("./.local.dic")
             }
         ],
       ]
@@ -54,7 +55,7 @@ exports.plugins = [
 
 The dictionary should contain names, terms, variables, and/or properties that are common to the Ember ecosystem and community. Examples would include `addon`, `rootURL`, `LTS` and `codemod`.
 
-Technical jargon such as `SemVar`, `QUnit`, and `minification` would also be included in the dictionary.
+Technical jargon such as `SemVar`, `QUnit`, and `minification` should also be included in the dictionary.
 
 Generally, packages or addon names would not be included in the dictionary.  The exception would be any core package, such as `ember-cli-dependency-checker` would be included.  Any package or addon in the Ember namespace would be in the dictionary,. 
 
