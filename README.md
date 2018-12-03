@@ -62,7 +62,7 @@ Technical jargon and major packages such as `SemVar`, `QUnit`, and `minification
 
 Ember words are added at the time of the `index.dic` file in alphanumerical order.  Capitalized words first, sentence cased next and lowercase or camelcase follow.
 
-Generally, addon names would not be included in the dictionary.  The exception would be any core package, such as `ember-cli-dependency-checker` should be included.
+Generally, addon names would not be included in the dictionary.  The exception would be any core package, such as `ember-cli-dependency-checker` should be included.  Addons and packages under an Ember organization should be added to the dictionary.
 
 ## What not to add
 
