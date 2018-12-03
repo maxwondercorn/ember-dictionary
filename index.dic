@@ -20,6 +20,7 @@ Config
 DevTools
 ESLint
 Ember
+Ember_Observer
 Homebrew
 JavaScript
 QUnit
@@ -29,7 +30,7 @@ Vim
 VSCode
 addon/S
 addAddonToProject
-addBowerPackageToProjec
+addBowerPackageToProject
 addPackageToProject
 afterInstall
 afterUninstall
@@ -49,6 +50,8 @@ deprecation/S
 ember-try
 ember-styleguide
 engineering/A
+fileMapTokens
+filesPath
 html
 http
 in-depth
@@ -56,6 +59,7 @@ in-repo
 lifecycle/S
 linter
 localhost:4200
+lockfile/S
 md5
 minifi/DR
 minify/G
@@ -64,9 +68,10 @@ minifyJS
 minification
 minified
 namespace/S
+normalizeEntityName
 npm
-localhost:4200
 outputPaths
+pathing
 performant
 podModulePrefix
 precompiler/S

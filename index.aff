@@ -129,7 +129,7 @@ SFX L Y 1
 SFX L   0     ment       .
 
 # REP count must be exact!!!
-REP 111
+REP 112
 REP css CSS
 REP configPaths configPath
 REP ember Ember
@@ -147,6 +147,7 @@ REP minifyjs minifyJS
 REP NPM npm
 REP Qunit QUnit
 REP semver SemVer
+REP Sember SemVer
 REP subfoler subdirectory
 REP subfolders subdirectories
 REP testem Testem
