@@ -1,4 +1,4 @@
-49044
+49069
 API/S
 AWS
 CDN/S
@@ -20,6 +20,7 @@ Config
 DevTools
 ESLint
 Ember
+EmberApp
 Ember_Observer
 Homebrew
 JavaScript
