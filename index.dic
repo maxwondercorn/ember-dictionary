@@ -36,7 +36,9 @@ afterUninstall
 autoRun
 beforeInstall
 beforeUninstall
+boolean
 bugfix/S
+checksum/S
 codebase
 codemod
 codemods
@@ -47,12 +49,14 @@ deprecation/S
 ember-try
 ember-styleguide
 engineering/A
+html
 http
 in-depth
 in-repo
 lifecycle/S
 linter
 localhost:4200
+md5
 minifi/DR
 minify/G
 minifyCSS
@@ -76,7 +80,7 @@ stylesheet/S
 subdirectories
 subdirectory
 symlink/S
-transpile/DS
+transpile/DGS
 uglify
 uglification
 vendorFile/S
