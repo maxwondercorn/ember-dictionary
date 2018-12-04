@@ -19,6 +19,7 @@ To use the dictionary, add it to `.remarkrc.js` file with the appropriate config
 
 ```js
 // .remarkrc.js
+/* eslint-env node */
 const unified = require("unified");
 const read = require("fs").readFileSync;
 const ember = require("ember-dictionary");

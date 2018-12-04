@@ -1,20 +1,27 @@
-const util = require('util');
-const read = require('fs').readFile;
-const readFile = util.promisify(read);
-const path = require('path');
+var read = require("fs").readFile;
+var join = require("path").join;
 
 module.exports = load;
 
-async function load(callback) {
-  let result = {};
-  let exception = null;
+function load(callback) {
+  var pos = -1;
+  var exception = null;
+  var result = {};
 
-  try {
-    result['aff'] = await readFile(path.join(__dirname, 'index.aff'));
-    result['dic'] = await readFile(path.join(__dirname, 'index.dic'));
-  } catch (e) {
-    exception = exception || e;
-  } finally {
-    callback(exception, exception ? null : result);
+  one("aff");
+  one("dic");
+
+  function one(name) {
+    read(join(__dirname, "index." + name), function(err, doc) {
+      pos++;
+      exception = exception || err;
+      result[name] = doc;
+
+      if (pos) {
+        callback(exception, exception ? null : result);
+        exception = null;
+        result = null;
+      }
+    });
   }
 }
