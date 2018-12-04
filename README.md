@@ -46,8 +46,7 @@ exports.plugins = [
   ],
   "remark-preset-lint-consistent",
   "remark-preset-lint-recommended",
-  ["remark-lint-list-item-indent", "space"],
-  "remark-lint-no-dead-urls"
+  ["remark-lint-list-item-indent", "space"]
 ];
 ```
 
