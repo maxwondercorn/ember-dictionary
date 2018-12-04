@@ -48,7 +48,10 @@ codemods
 config
 configPath
 dasherized
+defaultBlueprint
+demoURL
 deprecation/S
+ember-addon
 ember-try
 ember-styleguide
 engineering/A
