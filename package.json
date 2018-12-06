@@ -1,6 +1,6 @@
 {
   "name": "ember-dictionary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hunspell dictionary for Ember guides",
   "license": "MIT",
   "keywords": [
