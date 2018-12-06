@@ -13,12 +13,14 @@ This dictionary merges in the `en_US` Hunspell [dictionary](http://wordlist.sour
 ```sh
 npm add ember-dictionary
 ```
+
+Note: Some `retext` plugins have dependencies that require Node v8.  Specifically, the `remark-lint-no-dead-urls` plugin. 
+
 ## Configuration file
 
 To use the dictionary, add it to `.remarkrc.js` file with the appropriate configuration options
 
 ```js
-// .remarkrc.js
 /* eslint-env node */
 const unified = require("unified");
 const read = require("fs").readFileSync;
@@ -46,7 +48,8 @@ exports.plugins = [
   ],
   "remark-preset-lint-consistent",
   "remark-preset-lint-recommended",
-  ["remark-lint-list-item-indent", "space"]
+  ["remark-lint-list-item-indent", "space"],
+  "remark-lint-no-dead-urls"
 ];
 ```
 
