@@ -14,11 +14,13 @@ This Ember dictionary is merged with the `en_US` Hunspell [dictionary](http://wo
 npm add ember-dictionary
 ```
 
-Note: Some `retext` plugins have dependencies that require Node v8.  Specifically, the `remark-lint-no-dead-urls` plugin. 
+Create a local dictionary file `.local.dic` at the root of your project.  This file can contain valid words that are specific to the project.
+
+This file is required even if they are not any project specific words.
 
 ## Configuration file
 
-To use the dictionary, add it to `.remarkrc.js` file with the appropriate configuration options
+To use the dictionary, add it to `.remarkrc.js` file with the appropriate configuration options.
 
 ```js
 /* eslint-env node */
@@ -48,8 +50,7 @@ exports.plugins = [
   ],
   "remark-preset-lint-consistent",
   "remark-preset-lint-recommended",
-  ["remark-lint-list-item-indent", "space"],
-  "remark-lint-no-dead-urls"
+  ["remark-lint-list-item-indent", "space"]
 ];
 ```
 
@@ -69,7 +70,7 @@ Generally, addon names would not be included in the dictionary.  The exception w
 
 ## What not to add
 
-Items that would be specific to a single guide should be added to the local project dictionary.  The project dictionary is named `.ember.dic` and should be located in the project root directory. Non-core packages and addons used in examples, such as `ember-moment` would also be in the local dictionary.
+Items that would be specific to a single guide should be added to the local project dictionary (`'local.dic`). Non-core packages and addons used in examples, such as `ember-moment` would also be in the local dictionary.
 
 The local dictionary can also be used to force exclusion of words.  If a word in the dictionary is prefixed with and `*`, spellcheck will always flag those as misspelt words.
 

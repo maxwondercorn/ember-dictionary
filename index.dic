@@ -1,4 +1,4 @@
-49069
+49079
 API/S
 AWS
 CDN/S
@@ -24,9 +24,12 @@ EmberApp
 Ember_Observer
 Homebrew
 JavaScript
+JQuery
+Netlify
 QUnit
 Sass
 SemVer
+Styleguide/S
 Testem
 Vim
 VSCode
@@ -52,11 +55,13 @@ defaultBlueprint
 demoURL
 deprecation/S
 ember-addon
+ember-dictionary
 ember-try
 ember-styleguide
 engineering/A
 fileMapTokens
 filesPath
+guidemaker
 html
 http
 in-depth
@@ -86,6 +91,7 @@ pewprocessed
 rootURL
 sourcemap/S
 storeConfigInMeta
+styleguide/S
 stylesheet/S
 subdirectories
 subdirectory
