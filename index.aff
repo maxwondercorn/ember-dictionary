@@ -129,7 +129,7 @@ SFX L Y 1
 SFX L   0     ment       .
 
 # REP count must be exact!!!
-REP 113
+REP 114
 REP css CSS
 REP configPaths configPath
 REP ember Ember
@@ -141,7 +141,8 @@ REP eslint ESLint
 REP indepth in-depth
 REP js JS
 REP javascript JavaScript
-REP jquery JQuery
+REP jquery jQuery
+REP JQuery jQuery
 REP MD5 md5
 REP minifycss minifyCSS
 REP minifyjs minifyJS
