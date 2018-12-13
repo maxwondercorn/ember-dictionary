@@ -1,4 +1,4 @@
-49089
+49095
 API/S
 AWS
 CDN/S
@@ -21,16 +21,21 @@ README
 SCSS
 UI
 URI
+XHR
 Async
+Ajax
 Config
 DevTools
 ESLint
+EmbeddedRecordsMixin
 Ember
 EmberApp
 Ember_Observer
+FastBoot
 Homebrew
 JavaScript
 jQuery
+JSONAPISerializer
 Netlify
 QUnit
 Sass
@@ -45,6 +50,7 @@ addBowerPackageToProject
 addPackageToProject
 afterInstall
 afterUninstall
+ajax
 async
 autoRun
 beforeInstall
