@@ -1,4 +1,4 @@
-49111
+49118
 API/S
 AWS
 CDN/S
@@ -13,6 +13,7 @@ ES2018
 ES3
 ES5
 ES6
+ENV
 HTTPS
 JS
 JSON
@@ -37,15 +38,18 @@ Github
 HTML5
 FastBoot
 Homebrew
+HTMLBars
 JavaScript
 JSLint
 jQuery
+JSONAPIAdapter
 JSONAPISerializer
 JSONSerializer
 Netlify
 Pluralization/S
 QUnit
 Polyfill/S
+Pseudocode
 Sass
 SemVer
 Styleguide/S
@@ -66,6 +70,7 @@ async
 autoRun
 beforeInstall
 beforeUninstall
+belongsTo
 boolean
 bugfix/S
 checksum/S
@@ -88,6 +93,7 @@ engineering/A
 fileMapTokens
 filesPath
 guidemaker
+hasMany
 html
 http
 in-depth
@@ -114,14 +120,15 @@ podModulePrefix
 polyfill/S
 pluralization/S
 precompiler/S
-pewprocessed
+pseudocode
+preprocess/D
 preprocessor/S
-preprocessed
 querySelectorAll
 rootURL
 sideload/DG
 sourcemap/S
 storeConfigInMeta
+stacktrace/S
 styleguide/S
 stylesheet/S
 subdirectories
