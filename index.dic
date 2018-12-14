@@ -1,4 +1,4 @@
-49136
+49138
 AMD
 API/S
 AWS
@@ -30,6 +30,7 @@ XSS
 Async
 Ajax
 Backburner
+Bower
 CommonJS
 Config
 DevTools
@@ -83,6 +84,7 @@ beforeUninstall
 belongsTo
 boolean
 bugfix/S
+camelCase/D
 checksum/S
 codebase
 codemod
