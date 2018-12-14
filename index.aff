@@ -129,7 +129,7 @@ SFX L Y 1
 SFX L   0     ment       .
 
 # REP count must be exact!!!
-REP 118
+REP 119
 REP css CSS
 REP configPaths configPath
 REP ember Ember
@@ -158,6 +158,7 @@ REP subfoler subdirectory
 REP subfolders subdirectories
 REP testem Testem
 REP vscode VSCode
+REP Websocket WebSocket
 REP a ei
 REP ei a
 REP a ey

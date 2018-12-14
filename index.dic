@@ -1,4 +1,4 @@
-49126
+49128
 AMD
 API/S
 AWS
@@ -51,6 +51,7 @@ JSONAPIAdapter
 JSONAPISerializer
 JSONSerializer
 Netlify
+PhantomJS
 Pluralization/S
 QUnit
 Polyfill/S
@@ -106,6 +107,7 @@ http
 in-depth
 in-repo
 initializer/S
+iOS
 lifecycle/S
 linter
 localhost:4200
