@@ -1,4 +1,4 @@
-49128
+49136
 AMD
 API/S
 AWS
@@ -24,7 +24,9 @@ README
 SCSS
 UI
 URI
+W3C
 XHR
+XSS
 Async
 Ajax
 Backburner
@@ -50,6 +52,8 @@ jQuery
 JSONAPIAdapter
 JSONAPISerializer
 JSONSerializer
+MongoDB
+MySQL
 Netlify
 PhantomJS
 Pluralization/S
@@ -92,7 +96,10 @@ deprecation/S
 deserialize/NR
 destructure/G
 ember-addon
+ember-cli-app-version
+ember-cli-babel
 ember-cli-mirage
+ember-cli-template-lint
 ember-dictionary
 ember-try
 ember-styleguide
@@ -106,6 +113,7 @@ html
 http
 in-depth
 in-repo
+iframe/S
 initializer/S
 iOS
 lifecycle/S
