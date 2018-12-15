@@ -56,7 +56,7 @@ exports.plugins = [
 
 ## Ignore files
 
-A `.remarkignore` file added to the project root directory can be used to ignore markdown files from linting.  Generally, README.md and CONTRIBUTING.ms would be included in the file.
+A `.remarkignore` file added to the project root directory can be used to ignore markdown files from linting.  Generally, README.md and CONTRIBUTING.md would be included in the file.
 
 ## What to add
 
