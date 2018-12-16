@@ -64,25 +64,25 @@ The dictionary (`index.dic`) should contain names, terms, variables, and/or prop
 
 Technical jargon and major packages such as `SemVar`, `QUnit`, and `minification` should also be included in the dictionary. Specifying names will keep spelling/capitalization consistent across the guides.
 
-Ember words are added at the time of the `index.dic` file in alphanumerical order.  Capitalized words first, sentence cased next and lowercase or camelcase follow.
+Ember words are added at the top of the `index.dic` file in alphanumerical order.  Capitalized words first, sentence cased next and lowercase or camelcase follow.
 
 Generally, addon names would not be included in the dictionary.  The exception would be any core package, such as `ember-cli-dependency-checker` should be included.  Addons and packages under an Ember organization should be added to the dictionary.
 
 ## What not to add
 
-Items that would be specific to a single guide should be added to the local project dictionary (`'local.dic`). Non-core packages and addons used in examples, such as `ember-moment` would also be in the local dictionary.
+Items that would be specific to a single guide should be added to the local project dictionary (`.local.dic`). Non-core packages and addons used in examples, such as `ember-moment` would also be in the local dictionary.
 
-The local dictionary can also be used to force exclusion of words.  If a word in the dictionary is prefixed with and `*`, spellcheck will always flag those as misspelt words.
+The local dictionary can also be used to force exclusion of words.  If a word in the dictionary is prefixed with and `*`, such as `*ember`, the spellchecker will always flag them as misspelt words.  This is good method for enforcing specific capitalization of common words
 
 ## Affix file
 
 Hunspell dictionaries have an affix file (`index.aff`) that contains rules to pluralize, prefix and suffix dictionary words. This allows you to add the root form of the word and Hunspell can determine if other variants are spelled correctly.
 
-For example, you can validate `addon` and `addons` but using `addon/S`. For certain technical terms, you have to put all variations in the dictionary, as the rules may not work.  `Codemod` and `codemods` is an example of this, so both need to be in the dictionary.
+For example, you can validate `addon` and `addons` but using `addon/S`. For certain technical terms, you have to put all variations in the dictionary because they may not follow english spelling rules.  `codemod` and `codemods` is an example of this, so both need to be included in the dictionary.
 
-The affix file can also be used to offer alternatives when a word is misspelled.  For example, if `QUnit` is the correct form to use in the guides, spellings such as `qunit` and `Qunit` could offer `QUnit` as a replacement.  This enforces consistency in the guides.
+The affix file can also be used to offer alternatives when a word is misspelled.  For example, `QUnit` is the correct form of the library name. To enforce the correct proper name, spellings such as `qunit` and `Qunit` could offer `QUnit` as a replacement. This enforces consistency in the guides.
 
-The `REP` section of the affix file is where replacements are put. For the `QUnit` example above, two entries would be needed.
+The `REP` section of the affix file is where replacements are placed. For the `QUnit` example above, two entries would be needed.
 
 ```sh
 REP qunit QUnit
@@ -94,5 +94,5 @@ All Ember REPS should go at the top of the list in alphabetical order.  Note the
 
 ## Contributing
 
-Fork, add word(s) to the `index.dic` file and create a REP in `index.aff` file, if needed.
+Fork, add word(s) to the `index.dic` file and if needed, create a REP in `index.aff` file.
 Ask if not sure how to do the REP entry!!
