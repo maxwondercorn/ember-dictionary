@@ -11,7 +11,7 @@ This Ember dictionary is merged with the `en_US` Hunspell [dictionary](http://wo
 ## Installation
 
 ```sh
-npm add ember-dictionary
+npm install ember-dictionary
 ```
 
 Create a local dictionary file `.local.dic` at the root of your project.  This file can contain valid words that are specific to the project.
@@ -52,6 +52,25 @@ exports.plugins = [
   "remark-preset-lint-recommended",
   ["remark-lint-list-item-indent", "space"]
 ];
+```
+
+A copy of this `remarkrc` file is included in the root of this project.
+
+## Dependencies
+
+For complete markdown linting based on the above `remarkrc` configuration you need to npm install the following dependencies:
+
+```
+remark-preset-lint-consistent
+remark-lint-list-item-indent
+remark-preset-lint-recommended
+remark-retext
+retext-contractions
+retext-english
+retext-indefinite-article
+retext-repeated-words
+retext-spell
+retext-syntax-urls
 ```
 
 ## Ignore files
