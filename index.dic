@@ -84,6 +84,7 @@ beforeUninstall
 belongsTo
 boolean
 bugfix/S
+breakpoint/S
 camelCase/D
 checksum/S
 codebase
