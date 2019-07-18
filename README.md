@@ -10,19 +10,20 @@ This Ember dictionary is merged with the `en_US` Hunspell [dictionary](http://wo
 
 ## Installation
 
-```sh
+```bash
 npm install ember-dictionary
 ```
 
-Create a local dictionary file `.local.dic` at the root of your project.  This file can contain valid words that are specific to the project.
-
-This file is required even if they are not any project specific words.
+Create a local dictionary file `.local.dic` at the root of the project. This file can contain valid words that are specific to the project. The `.local.dic` file is required even if they are not any guide specific words.
 
 ## Configuration file
 
 To use the dictionary, add it to `.remarkrc.js` file with the appropriate configuration options.
 
+
 ```js
+// ./remark.js
+
 /* eslint-env node */
 const unified = require("unified");
 const read = require("fs").readFileSync;
@@ -54,28 +55,28 @@ exports.plugins = [
 ];
 ```
 
-A copy of this `remarkrc` file is included in the root of this project.
+A copy of this `remarkrc.js` file is included in this project.
 
 ## Dependencies
 
 For complete markdown linting based on the above `remarkrc` configuration you need to npm install the following dependencies:
 
-```
-remark-preset-lint-consistent
-remark-lint-list-item-indent
-remark-preset-lint-recommended
-remark-retext
-retext-contractions
-retext-english
-retext-indefinite-article
-retext-repeated-words
-retext-spell
-retext-syntax-urls
+```bash
+npm i remark-preset-lint-consistent
+npm i remark-lint-list-item-indent
+npm i remark-preset-lint-recommended 
+npm i remark-retext
+npm i retext-contractions
+npm i retext-english
+npm i retext-indefinite-article
+npm i retext-repeated-words
+npm i retext-spell
+npm i retext-syntax-urls
 ```
 
 ## Ignore files
 
-A `.remarkignore` file added to the project root directory can be used to ignore markdown files from linting.  Generally, README.md and CONTRIBUTING.md would be included in the file.
+A `.remarkignore` file added to the project root directory can be used to ignore markdown files from linting.  Generally, README.md and CONTRIBUTING.md would be excluded.
 
 ## What to add
 
