@@ -59,19 +59,19 @@ A copy of this `remarkrc.js` file is included in this project.
 
 ## Dependencies
 
-For complete markdown linting based on the above `remarkrc` configuration you need to npm install the following dependencies:
+For complete markdown linting based on the above `remarkrc` configuration install the following in devDependencies:
 
 ```bash
-npm i remark-preset-lint-consistent
-npm i remark-lint-list-item-indent
-npm i remark-preset-lint-recommended 
-npm i remark-retext
-npm i retext-contractions
-npm i retext-english
-npm i retext-indefinite-article
-npm i retext-repeated-words
-npm i retext-spell
-npm i retext-syntax-urls
+npm i remark-preset-lint-consistent --save-dev
+npm i remark-lint-list-item-indent --save-dev
+npm i remark-preset-lint-recommended  --save-dev
+npm i remark-retext --save-dev
+npm i retext-contractions --save-dev
+npm i retext-english --save-dev
+npm i retext-indefinite-article --save-dev
+npm i retext-repeated-words --save-dev
+npm i retext-spell --save-dev
+npm i retext-syntax-urls --save-dev
 ```
 
 ## Ignore files
