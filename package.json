@@ -9,6 +9,18 @@
     "hunspell",
     "dictionary"
   ],
+  "scripts": {
+    "version": "npx auto-changelog && git add CHANGELOG.md"
+  },
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": "changelog-template.hbs",
+    "unreleased": true,
+    "commitLimit": false
+  },
   "repository": "https://github.com/maxwondercorn/ember-dictionary",
-  "author": "maxwondercorn aka gmartell"
+  "author": "maxwondercorn aka gmartell",
+  "devDependencies": {
+    "auto-changelog": "^1.16.1"
+  }
 }
