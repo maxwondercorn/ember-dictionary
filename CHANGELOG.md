@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.1...HEAD)
+
+### Commits
+
+- Additional words to support super-rentals [`bd76a81`](https://github.com/maxwondercorn/ember-dictionary/commit/bd76a81c03577677dc01c8df20af8dee3650b437)
+- Updated changelog [`5465549`](https://github.com/maxwondercorn/ember-dictionary/commit/54655492de8c00d887bbc59530e9c8ca541d4cea)
+
 ## [v0.2.1](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.0...v0.2.1) - 2019-10-03
 
 ### Commits
