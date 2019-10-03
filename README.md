@@ -59,9 +59,12 @@ A copy of this `remarkrc.js` file is included in this project.
 
 ## Dependencies
 
-For complete markdown linting based on the above `remarkrc` configuration install the following in devDependencies:
+For markdown linting based on the above `remarkrc` configuration install the following in devDependencies:
 
 ```bash
+npm i remark-cli --save-dev
+npm i ember-dictionary --save-dev
+npm i remark-lint --save-dev
 npm i remark-preset-lint-consistent --save-dev
 npm i remark-lint-list-item-indent --save-dev
 npm i remark-preset-lint-recommended  --save-dev
@@ -72,47 +75,13 @@ npm i retext-indefinite-article --save-dev
 npm i retext-repeated-words --save-dev
 npm i retext-spell --save-dev
 npm i retext-syntax-urls --save-dev
+npm i unified --save-dev
 ```
 
 ## Ignore files
 
-A `.remarkignore` file added to the project root directory can be used to ignore markdown files from linting.  Generally, README.md and CONTRIBUTING.md would be excluded.
-
-## What to add
-
-The dictionary (`index.dic`) should contain names, terms, variables, and/or properties that are common to the Ember ecosystem and community. Examples would include `addon`, `rootURL`, `LTS` and `codemod`.
-
-Technical jargon and major packages such as `SemVar`, `QUnit`, and `minification` should also be included in the dictionary. Specifying names will keep spelling/capitalization consistent across the guides.
-
-Ember words are added at the top of the `index.dic` file in alphanumerical order.  Capitalized words first, sentence cased next and lowercase or camelcase follow.
-
-Generally, addon names would not be included in the dictionary.  The exception would be any core package, such as `ember-cli-dependency-checker` should be included.  Addons and packages under an Ember organization should be added to the dictionary.
-
-## What not to add
-
-Items that would be specific to a single guide should be added to the local project dictionary (`.local.dic`). Non-core packages and addons used in examples, such as `ember-moment` would also be in the local dictionary.
-
-The local dictionary can also be used to force exclusion of words.  If a word in the dictionary is prefixed with and `*`, such as `*ember`, the spellchecker will always flag them as misspelt words.  This is good method for enforcing specific capitalization of common words
-
-## Affix file
-
-Hunspell dictionaries have an affix file (`index.aff`) that contains rules to pluralize, prefix and suffix dictionary words. This allows you to add the root form of the word and Hunspell can determine if other variants are spelled correctly.
-
-For example, you can validate `addon` and `addons` but using `addon/S`. For certain technical terms, you have to put all variations in the dictionary because they may not follow english spelling rules.  `codemod` and `codemods` is an example of this, so both need to be included in the dictionary.
-
-The affix file can also be used to offer alternatives when a word is misspelled.  For example, `QUnit` is the correct form of the library name. To enforce the correct proper name, spellings such as `qunit` and `Qunit` could offer `QUnit` as a replacement. This enforces consistency in the guides.
-
-The `REP` section of the affix file is where replacements are placed. For the `QUnit` example above, two entries would be needed.
-
-```sh
-REP qunit QUnit
-REP Qunit QUnit
-```
-
-All Ember REPS should go at the top of the list in alphabetical order.  Note the REP count at the top of the list must be **`exactly`** the number of REPS.
-
+To ignore files during lintng, a `.remarkignore` file can be added to the project's root directory. Generally, `README.md` and `CONTRIBUTING.md` would be excluded.
 
 ## Contributing
 
-Fork, add word(s) to the `index.dic` file and if needed, create a REP in `index.aff` file.
-Ask if not sure how to do the REP entry!!
+If you would like to add new words to the dictionary, read the [contributing](./contributing.md) guide.
