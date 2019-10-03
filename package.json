@@ -10,7 +10,7 @@
     "dictionary"
   ],
   "scripts": {
-    "version": "npx auto-changelog && git add CHANGELOG.md"
+    "version": "auto-changelog && git add CHANGELOG.md"
   },
   "auto-changelog": {
     "output": "CHANGELOG.md",
