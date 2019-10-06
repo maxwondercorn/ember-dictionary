@@ -129,7 +129,7 @@ SFX L Y 1
 SFX L   0     ment       .
 
 # REP count must be exact!!!
-REP 120
+REP 123
 REP css CSS
 REP configPaths configPath
 REP ember Ember
@@ -152,6 +152,9 @@ REP MD5 md5
 REP minifycss minifyCSS
 REP minifyjs minifyJS
 REP NPM npm
+REP postgressql PostgreSQL
+REP postgress PostgreSQL
+REP PostgresSQL PostgreSQL
 REP Qunit QUnit
 REP semver SemVer
 REP Sember SemVer
