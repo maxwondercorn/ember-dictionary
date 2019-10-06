@@ -1,6 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.1...HEAD)
+## [Unreleased](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.2...HEAD)
+
+### Commits
+
+- Updated dictionary words - words used in turtorial [`dcc8ca5`](https://github.com/maxwondercorn/ember-dictionary/commit/dcc8ca5af92881bb8f58b7d12882c37d7fcc715c)
+
+## [v0.2.2](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.1...v0.2.2) - 2019-10-03
 
 ### Commits
 
