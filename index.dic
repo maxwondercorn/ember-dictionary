@@ -1,10 +1,7 @@
-49488
-AMD
+49485
 API/S
-AWS
 CDN/S
 CLI
-CSS
 CWD
 D3
 DNS
@@ -19,14 +16,13 @@ ES5
 ES6
 ENV
 HTTPS
-JPEG
 JPG
 JS
 JSON
 JSON-API
 LTS
 PNG
-POJO
+POJO/S
 README
 S3
 SCSS
@@ -40,11 +36,12 @@ WAI-ARIA
 WCAG
 XHR
 XSS
-Async
+accessor/S
+assistive
+async
 Ajax
 Backburner
-backend
-backends
+backend/S
 barcode/SG
 Bower
 breakpoint/S
@@ -64,7 +61,7 @@ EmberApp
 Ember_Observer
 EmbeddedRecordMixin
 ember-qunit
-frontend
+frontend/S
 geolocation
 GitHub
 hostname
@@ -91,8 +88,6 @@ JSONAPISerializer
 JSONSerializer
 mixin
 mockup
-MongoDB
-MySQL
 namespace/DG
 Netlify
 PhantomJS
@@ -103,6 +98,7 @@ preprocess/DGS
 Proxying
 QUnit
 Polyfill/S
+polymorphism
 Pseudocode
 runtime
 Sass
@@ -119,6 +115,7 @@ Testem
 Tomster
 transpilation
 transpiler/S
+truthy
 Vim
 VSCode
 WebSocket/S
