@@ -1,6 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.2...HEAD)
+## [v0.2.4](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.3...v0.2.4) - 2019-10-16
+
+### Commits
+
+- Dictionary cleanup/improvements [`494ef99`](https://github.com/maxwondercorn/ember-dictionary/commit/494ef996f1c1243f3b2048862222db52beebc50e)
+
+## [v0.2.3](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.2...v0.2.3) - 2019-10-06
 
 ### Commits
 
