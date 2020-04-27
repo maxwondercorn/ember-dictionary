@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.2.5](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.4...v0.2.5) - 2020-04-27
+
+### Merged
+
+- Updates [`#2`](https://github.com/maxwondercorn/ember-dictionary/pull/2)
+
+### Commits
+
+- Updated en_US and removed duplicates [`87db1be`](https://github.com/maxwondercorn/ember-dictionary/commit/87db1be51cc7e88182bfdc170810cc797d39559f)
+- Refine readme and contributing [`e08e9d4`](https://github.com/maxwondercorn/ember-dictionary/commit/e08e9d45e267e733eda4c49134289a58c2595c7d)
+- Update dependencies [`0e2c43a`](https://github.com/maxwondercorn/ember-dictionary/commit/0e2c43abdb47deb88f90d93e353450cf069700ec)
+
 ## [v0.2.4](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.3...v0.2.4) - 2019-10-16
 
 ### Commits
