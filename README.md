@@ -6,7 +6,9 @@ For example, `emberobserver` and `EmberObserver` will be flagged as invalid, wit
 
 The dictionary is used with [retext-spell](https://github.com/retextjs/retext-spell) to spellcheck markdown files. `retext-spell` dictionary loading is demonstrated in [wooorm/dictionaries](https://github.com/wooorm/dictionaries).
 
-This Ember dictionary is merged with the `en_US` Hunspell [dictionary](http://wordlist.sourceforge.net). This simplifies configuration of `retext-spell`.  The english dictionary will occasionally need to be remerged (12-18 months) to keep it in sync. See en_US.lic for license.
+This Ember dictionary is merged with the `en_US` Hunspell [dictionary](http://wordlist.sourceforge.net). This simplifies configuration of `retext-spell`.  The english dictionary will occasionally need to be remerged (12-18 months) to keep it in sync. See en_US.lic for license. 
+
+Whenever the `en_US` dictionary is updated check for duplicate words using the command `REV` command discussed in [CONTRIBUTING](contributing#finally).
 
 ## Installation
 
