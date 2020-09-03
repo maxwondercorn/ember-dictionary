@@ -1,3 +1,5 @@
+// example of loading loading hunspell dictionaires from
+// https://github.com/wooorm/dictionaries/blob/main/dictionaries/en/index.js
 var read = require("fs").readFile;
 var join = require("path").join;
 
