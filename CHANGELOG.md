@@ -1,5 +1,15 @@
 # Changelog
 
+## [v0.2.6](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.5...v0.2.6) - 2020-09-03
+
+### Commits
+
+- doc: improve readme [`f4cc190`](https://github.com/maxwondercorn/ember-dictionary/commit/f4cc1902e04708d6bee2e3e0a7758f99b121d8dc)
+- fix: correct word count in dictionary [`e1e94d5`](https://github.com/maxwondercorn/ember-dictionary/commit/e1e94d5cb217e79f59b3e25b4337101020787c06)
+- doc: fix spelling error in CONTRIBUTING.md [`9dd5faa`](https://github.com/maxwondercorn/ember-dictionary/commit/9dd5faa8ed27c9b2d3a40b1438fa3156e9873b8f)
+- chore: update dev dependencies [`cc4fb60`](https://github.com/maxwondercorn/ember-dictionary/commit/cc4fb6093ed24d9ac0ac997467f9a36526098163)
+- chore: add example .local.dic [`a5b74c8`](https://github.com/maxwondercorn/ember-dictionary/commit/a5b74c8abfb17279b62bb60fc9265c0a7fc975f2)
+
 ## [v0.2.5](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.4...v0.2.5) - 2020-04-27
 
 ### Merged
@@ -41,7 +51,7 @@
 - Added super-rentals words + other common words [`7b02903`](https://github.com/maxwondercorn/ember-dictionary/commit/7b0290399eadd4134812cfeaa8ef521e17de5bf2)
 - Update README npm install should be to devDeps [`8e6e523`](https://github.com/maxwondercorn/ember-dictionary/commit/8e6e52391bc8a64f4322136df409c70d68f8e39a)
 
-## [v0.2.0](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.16...v0.2.0) - 2019-10-02
+## [v0.2.0](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.16...v0.2.0) - 2019-10-01
 
 ### Merged
 
@@ -57,7 +67,7 @@
 
 - updated english words [`c5985ae`](https://github.com/maxwondercorn/ember-dictionary/commit/c5985aee49ae38081e5bef5055cfa14f88329194)
 
-## [v0.1.15](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.14...v0.1.15) - 2019-02-17
+## [v0.1.15](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.14...v0.1.15) - 2019-02-16
 
 ### Commits
 
@@ -83,19 +93,19 @@
 
 - fixed github spelling [`184c873`](https://github.com/maxwondercorn/ember-dictionary/commit/184c873c506b1bb4f979d0fecd46e1ba7e575900)
 
-## [v0.1.11](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.10...v0.1.11) - 2018-12-14
+## [v0.1.11](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.10...v0.1.11) - 2018-12-13
 
 ### Commits
 
 - added Bower to dictionary [`29d45e4`](https://github.com/maxwondercorn/ember-dictionary/commit/29d45e4b0af9e0ec2aadf94ac1a7f14d17ff2ec2)
 
-## [v0.1.10](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.9...v0.1.10) - 2018-12-14
+## [v0.1.10](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.9...v0.1.10) - 2018-12-13
 
 ### Commits
 
 - added words [`dc871b9`](https://github.com/maxwondercorn/ember-dictionary/commit/dc871b9143b0a8aace44bd836a4e579b68f7951d)
 
-## [v0.1.9](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.8...v0.1.9) - 2018-12-14
+## [v0.1.9](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.8...v0.1.9) - 2018-12-13
 
 ### Commits
 
@@ -137,7 +147,7 @@
 
 - updated dictionary with ember terms [`bd3b9c2`](https://github.com/maxwondercorn/ember-dictionary/commit/bd3b9c2c6d2fa3a749644e2b7395724278cf6ec3)
 
-## [v0.1.2](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.1...v0.1.2) - 2018-12-07
+## [v0.1.2](https://github.com/maxwondercorn/ember-dictionary/compare/v0.1.1...v0.1.2) - 2018-12-06
 
 ### Commits
 
@@ -151,13 +161,13 @@
 - dropped dead-link plugin from example remarkrc [`521f318`](https://github.com/maxwondercorn/ember-dictionary/commit/521f31897d52a0b11e4348c95dead9b465b92ec7)
 - dropped dead-link plugin from docs [`6d92bf4`](https://github.com/maxwondercorn/ember-dictionary/commit/6d92bf444b1e26a624429c02e88c9e4381509beb)
 
-## [v0.1.0](https://github.com/maxwondercorn/ember-dictionary/compare/v0.0.8...v0.1.0) - 2018-12-04
+## [v0.1.0](https://github.com/maxwondercorn/ember-dictionary/compare/v0.0.8...v0.1.0) - 2018-12-03
 
 ### Commits
 
 - stepped back from async/await for node 6 compatibilty [`e921375`](https://github.com/maxwondercorn/ember-dictionary/commit/e92137585b257d822b541377458915b19e2848f5)
 
-## [v0.0.8](https://github.com/maxwondercorn/ember-dictionary/compare/v0.0.7...v0.0.8) - 2018-12-04
+## [v0.0.8](https://github.com/maxwondercorn/ember-dictionary/compare/v0.0.7...v0.0.8) - 2018-12-03
 
 ### Commits
 
