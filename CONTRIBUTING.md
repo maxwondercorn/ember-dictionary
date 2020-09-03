@@ -45,7 +45,7 @@ See the Hunspell [man pages](https://www.systutorials.com/docs/linux/man/4-hunsp
 When making updates to `index.dic`:
 
 * _All new custom words must be added to the file before the word "`0/nm`"._
-* The first line of the file is the number of words in the file. It doesn't need to be exact but it should be close. Most ides have line numbers making it easy to count the words
+* The first line of the file is the number of words in the file. It doesn't need to be exact but it should be close. Most IDE's have line numbers making it easy to count the words
 * Find and remove any duplicate words using the command (macOS/Linux) ```rev index.dic | cut -f1 -d/ | rev | sort | uniq -d```
 
 You can ignore the seemingly nonsense words at the beginning of the list. The `real` duplicates will be at the end of the list.  
