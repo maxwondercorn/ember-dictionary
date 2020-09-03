@@ -21,6 +21,6 @@
   "repository": "https://github.com/maxwondercorn/ember-dictionary",
   "author": "@maxwondercorn aka gmartell",
   "devDependencies": {
-    "auto-changelog": "^2.0.0"
+    "auto-changelog": "^2.2.0"
   }
 }
