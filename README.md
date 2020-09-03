@@ -4,9 +4,10 @@ This is a custom [Hunspell](http://hunspell.github.io) dictionary for spellcheck
 
 For example, `emberobserver` and `EmberObserver` will be flagged as invalid, with a suggestion of `Ember Observer`.
 
-The dictionary is used with [retext-spell](https://github.com/retextjs/retext-spell) to spellcheck markdown files. `retext-spell` dictionary loading is demonstrated in [wooorm/dictionaries](https://github.com/wooorm/dictionaries).
+In addition to spellchecking, linting for repeated words, contraction errors and other markdown issues is also performed.
 
-This Ember dictionary is merged with the `en_US` Hunspell [dictionary](http://wordlist.sourceforge.net). This simplifies configuration of `retext-spell`.  The english dictionary will occasionally need to be remerged (12-18 months) to keep it in sync. See en_US.lic for license. 
+## Dictionary
+The Ember dictionary is merged with the `en_US` Hunspell [dictionary](http://wordlist.sourceforge.net). This simplifies configuration of `retext-spell`.  The english dictionary will occasionally need to be remerged (~12-18 months) to keep it in sync. See en_US.lic for license. 
 
 Whenever the `en_US` dictionary is updated check for duplicate words using the command `REV` command discussed in [CONTRIBUTING](contributing#finally).
 
@@ -16,12 +17,28 @@ Whenever the `en_US` dictionary is updated check for duplicate words using the c
 npm install ember-dictionary
 ```
 
-Create a local dictionary file `.local.dic` at the root of the project. This file can contain valid words that are specific to the project. The `.local.dic` file is required even if they are not any guide specific words.
+## Dependencies
 
-## Configuration file
+Install the following devDependencies:
 
-To use the dictionary, add it to `.remarkrc.js` file with the appropriate configuration options.
+```bash
+npm i -D remark-cli
+npm i -D ember-dictionary
+npm i -D remark-lint
+npm i -D remark-preset-lint-consistent
+npm i -D remark-lint-list-item-indent
+npm i -D remark-preset-lint-recommended
+npm i -D remark-retext
+npm i -D retext-contractions
+npm i -D retext-english
+npm i -D retext-indefinite-article
+npm i -D retext-repeated-words
+npm i -D retext-spell
+npm i -D retext-syntax-urls
+npm i -D unified
+```
 
+Create a `.remarkrc.js` file in the project root and copy this configuration below into the file. A copy of this file is included in the repo.
 
 ```js
 // ./remark.js
@@ -57,32 +74,26 @@ exports.plugins = [
 ];
 ```
 
-A copy of this `remarkrc.js` file is included in this project.
+## Local dictionary
 
-## Dependencies
+A local dictionary file can be used for project specific words not included in the dictionary.
 
-For markdown linting based on the above `remarkrc` configuration install the following in devDependencies:
+Create a local dictionary file named `.local.dic` in the project root. Each word should be on its own line in the file
 
-```bash
-npm i remark-cli --save-dev
-npm i ember-dictionary --save-dev
-npm i remark-lint --save-dev
-npm i remark-preset-lint-consistent --save-dev
-npm i remark-lint-list-item-indent --save-dev
-npm i remark-preset-lint-recommended  --save-dev
-npm i remark-retext --save-dev
-npm i retext-contractions --save-dev
-npm i retext-english --save-dev
-npm i retext-indefinite-article --save-dev
-npm i retext-repeated-words --save-dev
-npm i retext-spell --save-dev
-npm i retext-syntax-urls --save-dev
-npm i unified --save-dev
-```
+The `.local.dic` file is _REQUIRED_ even if they are not any guide specific words.
 
 ## Ignore files
 
-To ignore files during lintng, a `.remarkignore` file can be added to the project's root directory. Generally, `README.md` and `CONTRIBUTING.md` would be excluded.
+To ignore files during lintng add a `.remarkignore` file to the project's root directory. Generally, `README.md` and `CONTRIBUTING.md` would be excluded.
+
+## Finally
+
+Add the following script command to your `package.json`. For warnings only do use `--frail`. 
+
+```json
+"lint:md": "remark . --frail"
+```
+
 
 ## Contributing
 
