@@ -42,7 +42,7 @@ See the Hunspell [man pages](https://www.systutorials.com/docs/linux/man/4-hunsp
 
 ## Finally
 
-When making updates to `index.dic`:
+Making updates to `index.dic`:
 
 * _All new custom words must be added to the file before the word "`0/nm`"._
 * The first line of the file is the number of words in the file. It doesn't need to be exact but it should be close. Most IDE's have line numbers making it easy to count the words
