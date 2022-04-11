@@ -1,4 +1,4 @@
-49736
+49773
 API/S
 CDN/S
 CLI
@@ -38,7 +38,6 @@ XHR
 XSS
 accessor/S
 assistive
-Ajax
 Backburner
 backend/S
 barcode/SG
@@ -62,7 +61,6 @@ EmbeddedRecordMixin
 ember-qunit
 frontend/S
 geolocation
-GitHub
 hostname
 HTML5
 falsy
@@ -79,7 +77,6 @@ htmlbars-inline-precompile
 IndexedDB
 Initializer/S
 jank
-JavaScript
 JSLint
 jQuery
 JSONAPIAdapter
@@ -93,7 +90,6 @@ PhantomJS
 Pluralization/S
 Polyfill/S
 polymorphism
-PostgreSQL
 preprocess/DGS
 Proxying
 Pseudocode
@@ -130,10 +126,8 @@ beforeInstall
 beforeUninstall
 belongsTo
 bugfix/S
-breakpoint/S
 camelCase/D
 checksum/S
-codebase
 codemod
 codemods
 config
@@ -723,6 +717,7 @@ Anthony/M
 Anthropocene
 Antichrist/SM
 Antietam/M
+Antifa/M
 Antigone/M
 Antigua/M
 Antillean
@@ -1842,6 +1837,7 @@ COBOL/SM
 COD
 COL
 COLA
+COVID
 CPA/M
 CPI/M
 CPO
@@ -3112,7 +3108,6 @@ Duluth/M
 Dumas/M
 Dumbledore/M
 Dumbo/M
-Dumpster/M
 Dunant/M
 Dunbar/M
 Duncan/M
@@ -5611,8 +5606,6 @@ Kongo/M
 Konrad/M
 Koontz/M
 Koppel/M
-Koran/MS
-Koranic
 Korea/M
 Korean/SM
 Kornberg/M
@@ -5800,6 +5793,7 @@ Latham/M
 Latin/MRS
 Latina
 Latino/SM
+Latinx
 Latisha/M
 Latonya/M
 Latoya/M
@@ -8348,6 +8342,8 @@ Quixote/M
 Quixotism/M
 Qumran/M
 Quonset/M
+Quran
+Quranic
 R/M
 RAF/M
 RAM/SM
@@ -11555,6 +11551,7 @@ aeronautical
 aeronautics/M
 aerosol/MS
 aerospace/M
+aery
 aesthete/MS
 aesthetic/S
 aesthetically
@@ -12135,7 +12132,7 @@ analysand/MS
 analyses/A
 analysis/AM
 analyst/SM
-analytic
+analytic/S
 analytical/Y
 analyzable
 analyze/ADSG
@@ -12193,7 +12190,7 @@ anesthesiologist/SM
 anesthesiology/M
 anesthetic/SM
 anesthetist/MS
-anesthetization/SM
+anesthetization/M
 anesthetize/GDS
 aneurysm/SM
 anew
@@ -12596,6 +12593,7 @@ apprehensiveness/M
 apprentice/DSMG
 apprenticeship/MS
 apprise/GDS
+apprize/GDS
 approach/GBMDS
 approachable/UI
 approbation/EM
@@ -13677,7 +13675,6 @@ baronetcy/SM
 baronial
 barony/SM
 baroque/M
-barque/SM
 barrack/MDGS
 barracuda/SM
 barrage/MGDS
@@ -14559,6 +14556,7 @@ blockader/M
 blockage/MS
 blockbuster/SM
 blockbusting/M
+blockchain/MS
 blocker/MS
 blockhead/SM
 blockhouse/MS
@@ -15548,7 +15546,7 @@ busing/M
 busk/DRZGS
 buskin/SM
 busload/S
-buss/M
+buss/MDSG
 bust/MDRZGS
 buster/M
 bustle/DSMG
@@ -15719,7 +15717,6 @@ calculi
 calculus/M
 caldera/SM
 calendar/MDGS
-calender's
 calf/M
 calfskin/M
 caliber/SM
@@ -16930,6 +16927,7 @@ chute/MS
 chutney/MS
 chutzpah/M
 chyme/M
+chyron/MS
 ciabatta/SM
 ciao/S
 cicada/MS
@@ -17001,6 +16999,8 @@ cirrhosis/M
 cirrhotic/SM
 cirri
 cirrus/M
+cis
+cisgender
 cistern/MS
 cit
 citadel/MS
@@ -17163,6 +17163,7 @@ clevis/MS
 clew/SGMD
 cliche/MDS
 click/BZGMDRS
+clickbait
 clicker/M
 client/MS
 clientele/MS
@@ -18252,6 +18253,7 @@ consumptive/SM
 cont
 contact/ASDG
 contactable
+contactless
 contagion/MS
 contagious/PY
 contagiousness/M
@@ -18545,6 +18547,7 @@ corona/SM
 coronal/MS
 coronary/SM
 coronation/SM
+coronavirus/MS
 coroner/MS
 coronet/MS
 corp
@@ -19181,6 +19184,7 @@ cryogenics/M
 cryonics
 cryosurgery/M
 crypt/SM
+cryptanalysis
 cryptic
 cryptically
 cryptocurrency/SM
@@ -19550,8 +19554,7 @@ dastard/MYS
 dastardliness/M
 data
 database/SM
-dataset's
-datasets
+dataset/MS
 datatype
 date/DRSMZGV
 datebook/S
@@ -19768,6 +19771,7 @@ deejay/MS
 deem/ASGD
 deep/SPXTMNRY
 deepen/GD
+deepfake/SM
 deepness/M
 deer/M
 deerskin/M
@@ -19897,7 +19901,7 @@ delirious/YP
 deliriousness/M
 delirium/SM
 deliver/ADGS
-deliverable
+deliverable/S
 deliverance/M
 delivered/U
 deliverer/SM
@@ -20724,6 +20728,7 @@ dissension/SM
 dissent/SMDRZG
 dissenter/M
 dissertation/SM
+disses
 dissidence/M
 dissident/MS
 dissimilar
@@ -22710,6 +22715,7 @@ exaggerate/XDSGN
 exaggerated/Y
 exaggeration/M
 exaggerator/MS
+exajoule/S
 exalt/SDG
 exaltation/M
 exam/MS
@@ -23462,6 +23468,7 @@ fend/CDRZGS
 fender/CM
 fenestration/M
 fennel/M
+fentanyl/M
 feral
 ferment/FCMS
 fermentation/M
@@ -24683,8 +24690,6 @@ frothiness/M
 froths
 frothy/TPR
 froufrou/M
-froward/P
-frowardness/M
 frown/SMDG
 frowzily
 frowziness/M
@@ -25292,9 +25297,13 @@ gift/MDGS
 gig/SM
 gigabit/SM
 gigabyte/MS
+gigagram/S
 gigahertz/M
+gigajoule/S
+gigameter/S
 gigantic
 gigantically
+gigapascal/S
 gigapixel/MS
 gigawatt/SM
 gigged
@@ -27047,6 +27056,7 @@ hitherto
 hitter/SM
 hitting
 hive/MGDS
+hivemind/SM
 hiya
 hmm
 ho/SMDRYZ
@@ -27074,6 +27084,7 @@ hobnob/S
 hobnobbed
 hobnobbing
 hobo/MS
+hoc
 hock/MDSG
 hockey/M
 hockshop/MS
@@ -27420,7 +27431,8 @@ housing/MS
 hove
 hovel/SM
 hover/SGD
-hovercraft/M
+hoverboard/MS
+hovercraft/MS
 how'd
 how're
 how/SM
@@ -28546,6 +28558,7 @@ initiation/M
 initiative/SM
 initiator/MS
 initiatory
+initio
 inject/SDG
 injection/SM
 injector/SM
@@ -28672,8 +28685,9 @@ inspired/U
 inspiring/U
 inst
 instability/S
+install/UBZRSDG
 installation/MS
-installer/UMS
+installer/UM
 installment/SM
 instance/GD
 instant/MRYS
@@ -28741,6 +28755,7 @@ integration/EAM
 integrator
 integrity/M
 integument/SM
+intel/M
 intellect/MS
 intellectual/MYS
 intellectualism/M
@@ -28893,6 +28908,8 @@ interruption/MS
 interscholastic
 intersect/GDS
 intersection/SM
+intersectional
+intersectionality
 intersession/SM
 intersex
 intersperse/GNDS
@@ -29088,7 +29105,6 @@ irreducible
 irreducibly
 irrefutable
 irrefutably
-irregardless
 irregular/MYS
 irregularity/SM
 irrelevance/MS
@@ -29320,7 +29336,6 @@ jetted
 jetting
 jettison/MDSG
 jetty/SM
-jew
 jewel/SZGMDR
 jeweler/M
 jewelry/SM
@@ -29612,6 +29627,8 @@ kerosene/M
 kestrel/MS
 ketch/MS
 ketchup/M
+keto
+ketogenic
 ketone/S
 kettle/SM
 kettledrum/SM
@@ -29670,12 +29687,17 @@ killjoy/SM
 kiln/MDSG
 kilo/MS
 kilobyte/SM
+kilocoulomb/S
 kilocycle/SM
 kilogram/SM
 kilohertz/M
+kilojoule/S
 kiloliter/MS
 kilometer/MS
+kilonewton/S
+kilopascal/S
 kiloton/SM
+kilovolt/S
 kilowatt/SM
 kilt/MDRS
 kilter/M
@@ -31802,13 +31824,17 @@ megachurch/MS
 megacycle/SM
 megadeath/M
 megadeaths
+megagram/S
 megahertz/M
+megajoule/S
 megalith/M
 megalithic
 megaliths
 megalomania/M
 megalomaniac/SM
 megalopolis/MS
+megameter/S
+megapascal/S
 megaphone/DSMG
 megapixel/SM
 megastar/S
@@ -31909,6 +31935,7 @@ mentholated
 mention/GSMD
 mentioned/U
 mentor/MDSG
+mentorship
 menu/MS
 meow/MDSG
 mercantile
@@ -32115,6 +32142,7 @@ micrometer/MS
 micron/MS
 microorganism/MS
 microphone/SM
+microplastics
 microprocessor/MS
 microscope/SM
 microscopic
@@ -32380,6 +32408,7 @@ mischievous/YP
 mischievousness/M
 miscibility/M
 miscible
+misclassified
 miscommunication/S
 misconceive/GDS
 misconception/SM
@@ -33286,14 +33315,13 @@ name's
 name/AGDS
 nameable/U
 named/U
-namedrop
-namedropping/M
 nameless/Y
 namely
 nameplate/MS
 namesake/SM
 nanny/SM
 nanobot/S
+nanometer/S
 nanosecond/SM
 nanotechnology/SM
 nanotube
@@ -33379,6 +33407,7 @@ naughtily
 naughtiness/M
 naughty/PTR
 nausea/M
+nauseam
 nauseate/GDS
 nauseating/Y
 nauseous/PY
@@ -33648,10 +33677,10 @@ nifedipine
 niff
 niffy
 nifty/TR
-nigga/SM
+nigga/MS!
 niggard/SMY
 niggardliness/M
-niggaz
+niggaz/!
 nigger/SM!
 niggle/MZGDRS
 niggler/M
@@ -34689,6 +34718,7 @@ opiate/SM
 opine/GNXDS
 opinion/M
 opinionated
+opioid/SM
 opium/M
 opossum/MS
 opp
@@ -36262,7 +36292,6 @@ pernicious/YP
 perniciousness/M
 peroration/MS
 peroxide/MGDS
-perpend
 perpendicular/SMY
 perpendicularity/M
 perpetrate/DSGN
@@ -36359,8 +36388,10 @@ pestle/MGDS
 pesto/M
 pet/SZMR
 petabyte/MS
+petajoule/S
 petal/SMD
 petard/MS
+petawatt/S
 petcock/SM
 peter/GMD
 petiole/SM
@@ -37700,6 +37731,7 @@ prepared/UP
 preparedness/UM
 prepay/GSL
 prepayment/MS
+prepend
 preponderance/SM
 preponderant/Y
 preponderate/GDS
@@ -38755,7 +38787,7 @@ rabble/MS
 rabid/PY
 rabidness/M
 rabies/M
-raccoon/M
+raccoon/MS
 race/MZGDRS
 racecourse/SM
 racegoer/S
@@ -42212,6 +42244,7 @@ site/MGDS
 sitemap/SM
 sitter/SM
 sitting/SM
+situ
 situate/DSXGN
 situation/M
 situational
@@ -43352,7 +43385,6 @@ spokeswoman/M
 spokeswomen
 spoliation/CM
 sponge/DRSMZG
-spongecake/M
 sponger/M
 sponginess/M
 spongy/RPT
@@ -43586,7 +43618,7 @@ stalk/SMDRJZG
 stalker/M
 stalking/M
 stall's
-stall/ISDG
+stall/SDG
 stallholder/S
 stallion/MS
 stalwart/MYS
@@ -44599,6 +44631,7 @@ superscription/M
 supersede/GDS
 supersize/GDS
 supersonic
+superspreader/SM
 superstar/MS
 superstardom
 superstate/S
@@ -45497,7 +45530,9 @@ tequila/SM
 terabit/SM
 terabyte/MS
 terahertz/M
+terajoule/S
 terapixel/MS
+terawatt/S
 terbium/M
 tercentenary/SM
 tercentennial/SM
@@ -46421,6 +46456,7 @@ tranquilizer/M
 trans/I
 transact/DGS
 transaction/SM
+transactional
 transactor/MS
 transatlantic
 transceiver/SM
@@ -46450,6 +46486,7 @@ transfinite
 transfix/DSG
 transform/BSZGMDR
 transformation/SM
+transformational
 transformer/M
 transfuse/DSXGN
 transfusion/M
@@ -46503,6 +46540,8 @@ transom/SM
 transpacific
 transparency/SM
 transparent/Y
+transphobia/M
+transphobic
 transpiration/M
 transpire/DSG
 transplant/MDGS
@@ -47424,7 +47463,6 @@ unimportant
 unimpressive
 uninformative
 uninhibited/Y
-uninstall/BSZGDR
 uninsured
 unintelligent
 unintended
