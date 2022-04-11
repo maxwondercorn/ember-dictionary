@@ -1,6 +1,6 @@
 {
   "name": "ember-dictionary",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Hunspell dictionary for Ember guides",
   "license": "MIT",
   "keywords": [
@@ -10,17 +10,11 @@
     "dictionary"
   ],
   "scripts": {
-    "version": "auto-changelog -p && git add CHANGELOG.md"
-  },
-  "auto-changelog": {
-    "output": "CHANGELOG.md",
-    "template": "changelog-template.hbs",
-    "unreleased": true,
-    "commitLimit": false
+    "release": "standard-version"
   },
   "repository": "https://github.com/maxwondercorn/ember-dictionary",
   "author": "@maxwondercorn aka gmartell",
   "devDependencies": {
-    "auto-changelog": "^2.2.0"
+    "standard-version": "^9.3.2"
   }
 }
