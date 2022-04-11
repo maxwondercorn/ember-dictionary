@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.8](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.7...v0.2.8) (2022-04-11)
+
+
+### Features
+
+* **index.dic:** Update dictionary from latest Hunspell en_US ([fe84215](https://github.com/maxwondercorn/ember-dictionary/commit/fe84215c7abfa70815624f83689eb2d68e595803))
+
 ### [0.2.7](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.6...v0.2.7) (2022-04-11)
 
 # Changelog
