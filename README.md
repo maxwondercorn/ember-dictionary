@@ -4,7 +4,11 @@ This is a custom [Hunspell](http://hunspell.github.io) dictionary for spellcheck
 
 For example, `emberobserver` and `EmberObserver` will be flagged as invalid, with a suggestion of `Ember Observer`.
 
-In addition to spell checking, the markdown will be linted for repeated words, contraction errors and conssitency issues. See the documentation for the plugins used in the configuration file.
+In addition to spell checking, the markdown will be linted for repeated words, contraction errors and consitency issues. See the documentation for the plugins used in the configuration file.
+
+### **BREAKING CHANGE!**
+
+All projects under the [unified](https://unifiedjs.com/) umbrella have been converted to ESM imports and `ember-dictionary` requires Node v14 or greater.
 
 ## Dictionary
 The Ember dictionary is merged with the `en_US` Hunspell [dictionary](http://wordlist.sourceforge.net). This simplifies configuration of `retext-spell`.  The english dictionary will occasionally need to be remerged (~12-18 months) to keep it in sync. See en_US.lic for license. 
@@ -21,6 +25,7 @@ or
 ```bash
 yarn add ember-dictionary
 ```
+
 ## Dependencies
 
 Install the following devDependencies:
@@ -42,39 +47,56 @@ npm i -D retext-syntax-urls
 npm i -D unified
 ```
 
-Create a `.remarkrc.js` file in the project root and paste the configuration below into the file. A copy of `.remarkrc.js` is included in the repo.
+Create a `.remarkrc.mjs` file in the project root and paste the configuration below into the file. A copy of `.remarkrc.mjs` is included in the repo.
 
 ```js
-// ./remark.js
+// .remarkrc.mjs
 /* eslint-env node */
-const unified = require("unified");
-const read = require("fs").readFileSync;
-const ember = require("ember-dictionary");
+import fs from 'fs';
+import  {unified}  from 'unified';
 
-exports.plugins = [
-  [
-    require("remark-retext"),
-    unified().use({
-      plugins: [
-        [require("retext-contractions"), { straight: true }],
-        require("retext-english"),
-        require("retext-indefinite-article"),
-        require("retext-repeated-words"),
-        require("retext-syntax-urls"),
-        [
-          require("retext-spell"),
-          {
-            dictionary: ember,
-            personal: read("./.local.dic")
-          }
+import remarkPresetLintConsistent from 'remark-preset-lint-consistent';
+import remarkPresetLintRecommended from 'remark-preset-lint-recommended';
+import remarkLintLintItemIndent from 'remark-lint-list-item-indent';
+import remarkRetext from 'remark-retext';
+
+import retextContractions from 'retext-contractions';
+import retextEnglish from 'retext-english';
+import retextIndefiniteArticle from 'retext-indefinite-article';
+import retextRepeatedWords from 'retext-repeated-words';
+import retextSpell from 'retext-spell';
+import retextSyntaxUrls from 'retext-syntax-urls';
+
+import emberDict from 'ember-dictionary';
+
+const remarkConfig = {
+  plugins: [
+    [
+      remarkRetext,
+      unified().use({
+        plugins: [
+          [retextContractions, { straight: true }],
+          retextEnglish,
+          retextIndefiniteArticle,
+          retextRepeatedWords,
+          retextSyntaxUrls,
+          [
+            retextSpell,
+            {
+              dictionary: emberDict,
+              personal: fs.readFileSync('./.local.dic')
+            }
+          ]
         ]
-      ]
-    })
-  ],
-  "remark-preset-lint-consistent",
-  "remark-preset-lint-recommended",
-  ["remark-lint-list-item-indent", "space"]
-];
+      })
+    ],
+    remarkPresetLintConsistent,
+    remarkPresetLintRecommended,
+    [remarkLintLintItemIndent, 'space']
+  ]
+};
+
+export default remarkConfig;
 ```
 
 ## Local dictionary
