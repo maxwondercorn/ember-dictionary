@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.10](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.9...v0.2.10) (2022-04-14)
+
 ### [0.2.9](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.8...v0.2.9) (2022-04-13)
 
 ### [0.2.8](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.7...v0.2.8) (2022-04-11)
