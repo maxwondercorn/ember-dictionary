@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.11](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.9...v0.2.11) (2022-04-14)
+
+
+### Bug Fixes
+
+* Remove index.js from .npmignore ([ee8c4f4](https://github.com/maxwondercorn/ember-dictionary/commit/ee8c4f4110cad05610f51af737c15e2c1d3a5e0b))
+
 ### [0.2.10](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.9...v0.2.10) (2022-04-14)
 
 ### [0.2.9](https://github.com/maxwondercorn/ember-dictionary/compare/v0.2.8...v0.2.9) (2022-04-13)
