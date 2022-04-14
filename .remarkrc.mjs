@@ -1,7 +1,7 @@
 // .remarkrc.mjs
 /* eslint-env node */
 import fs from 'fs';
-import  {unified}  from 'unified';
+import  { unified }  from 'unified';
 
 import remarkPresetLintConsistent from 'remark-preset-lint-consistent';
 import remarkPresetLintRecommended from 'remark-preset-lint-recommended';
