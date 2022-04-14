@@ -1,7 +1,5 @@
 # ember-dictionary
 
-## **Release 2.9 replaces 2.8 which was prematurely released!!!**
-
 This is a custom [Hunspell](http://hunspell.github.io) dictionary for
 spellchecking the Ember guides. It has the common technical terms used by the
 Ember community and helps enforce consistency across the guides.
