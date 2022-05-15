@@ -15,6 +15,6 @@
   "repository": "https://github.com/maxwondercorn/ember-dictionary",
   "author": "@maxwondercorn aka gmartell",
   "devDependencies": {
-    "standard-version": "9.3.2"
+    "standard-version": "9.5.0"
   }
 }
